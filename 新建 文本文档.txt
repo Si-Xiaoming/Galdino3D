@@ -1,0 +1,3 @@
+mamba env create -n Galdino3D --prefix=D:\03-codeLearning\python\Galdino3D\3rdparty -f environment.yaml
+
+conda activate D:\03-codeLearning\python\Galdino3D\3rdparty

@@ -1,0 +1,22 @@
+
+channels:
+  - pytorch
+  - nvidia/label/cuda-11.8.0
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8  # 替换为你需要的 Python 版本
+  - pytorch 2.0.0 py3.8_cuda11.8_cudnn8_0
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8  # 根据你的 GPU 配置调整 CUDA 版本
+  - cuda=11.8
+  - numpy
+  - scipy
+  - opencv
+  - pillow
+  - diffusers
+  - pip
+  - cmake
+
